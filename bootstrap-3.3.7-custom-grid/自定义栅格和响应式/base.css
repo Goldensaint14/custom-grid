@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+}
+li {
+  list-style: none;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+input,
+button {
+  padding: 0;
+  border: 0;
+}
+a {
+  text-decoration: none;
+}
+img {
+  vertical-align: top;
+  /* 去除 图片低测缝隙  图片和文字的基线对齐 */
+}

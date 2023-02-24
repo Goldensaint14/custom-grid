@@ -5,11 +5,16 @@
 @import "mixins/grid.less";
 @import "mixins/grid-framework.less";
 @import "mixins/responsive-visibility.less";
-@import "mixins/flex.less"; // BEM 规范
 
 // Reset and dependencies
 @import "normalize.less";
 @import "grid.less";
+@import "mixins/flex.less"; // BEM 规范
+// BEM 规范: 
+// 0.file-name 单词之间使用（-）分隔
+// 1.block__element 元素名称通过双下划线（__）与块名称分隔
+// 2.block__element--modifier  修饰符名称通过单个下划线（--）与块或元素名称分隔
+// 3.block--modifier / element--modifier 修饰符名称通过单个下划线（--）与块或元素名称分隔
 
 
 // Utility classes
